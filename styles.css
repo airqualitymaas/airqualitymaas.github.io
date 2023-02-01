@@ -276,11 +276,7 @@ footer ul li a:hover {
     right:5px;
   }
   
-  .logo{
-    width: 40px;
-    height:auto;
-  }
-  .navbar a{
+  .header{
     fontsize: 5px;
   }
 }
