@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Air Quality Measurer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styleAQM.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: 'Trebuchet MS'}
+
+body {
+  background-image: url("images/air.jpg");
+
+}
+</style>
+</head>
+<body>
+
+    <header class="header">
+		<div class = "logo"> 
+			<a href="index.html">
+				<img src="images/MSPlogo5" alt="logo"/>
+			</a>
+		</div> 
+		<nav class = "navbar">
+			<ul>
+				<li> <a href="contact-us.html"> About us</a></li>
+				<li> <a href="ccu.html"> Carbon Capture Unit</a></li>
+				<li> <a href="aqm.html"> Air Quality Monitorr</a></li>
+        <li> <a href="livedata.html">Data</a></li>
+				<li> <a href="introduction.html"> Background</a></li>
+			</ul> 
+		
+		</nav> 
+	</header>
+
+    <div class="about-section">
+        <h1>Air Quality Monitor</h1>
+      </div>
+      
+      <!-- First Grid -->
+      <div class = "columnI">
+        <div class ="row"> 
+            <img src="/report/electronics1.png" alt="AQM" style="width:70%">
+            </div> 
+          
+              <div class ="row"> 
+                <img src="report/electronics2.jpeg" alt="AQM" style="width:70%">
+                </div>
+      </div> 
+      
+      <div class = "columnT"> 
+        <div class = "row"> 
+            <h2>What is the air quality</h2>
+            <p>The air quality monitor (AQM) was built using an arduino microcontroller and several environmental sensors. The different sensors measure CO2, particulate matter and ozone concentration and the amount of volatile organic compound (VOC) present in the air. Moreover, it can also measure the humidity and temperature of its surroundings. 
+              The concept of the AQM is mostly based on the How To Mechatronics project.(link). However, since we did not have access to all of the components some of them were changed for other parts. Before we could start building the AQM we had to test the function of the different sensors using simple Arduino circuits.
+              The building process included building electronic circuits to connect the different sensors and coding them using various libraries to process the measurements. 
+              </p>
+          </div>
+      
+      
+      <!-- Second Grid -->
+      <div class = "row">
+        <h2>Building Process AQM</h2>
+        <p>The materials we used are listed below:</p>
+        <ul class = list>
+        <li>DHT22 Temperature and Humidity Sensor</li>
+        <li>SP07 Volatile Organic Compound (VOC) Sensor </li>
+        <li>PMS5003 Particulate Matter Sensor (PMS)</li>
+        <li>MH-Z19 CO2 Sensor</li>
+        <li>Gravity: I2C Ozone Sensor</li>
+        <li>DS3231 Real Time Clock (RTC) Sensor</li>
+        <li>2,4” Nextion Display LED Screen</li>
+        </ul>
+      </div>
+
+            <div class= "row"> 
+                <h2>Future</h2>
+                <p>In the future we want to improve the AQM we built so that it can send livedata to this website. We could then
+                  measure the air quality around Maastricht and check the recorded data on this website. 
+                  Moreover, we eventually want it to communicate with our CCU.
+                </p>
+            </div>
+      </div> 
+</body>
+</html>
