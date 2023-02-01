@@ -275,4 +275,12 @@ footer ul li a:hover {
     left:5px;
     right:5px;
   }
+  
+  .logo{
+    width: 35px;
+    height:auto;
+  }
+  .navbar a{
+    fontsize: 12px;
+  }
 }
